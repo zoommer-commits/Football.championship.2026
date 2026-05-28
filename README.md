@@ -1,5 +1,5 @@
 # Football.championship.2026
-[ფეხბურთის_ჩემპიონატი_2026.html](https://github.com/user-attachments/files/28339605/_._2026.html)
+[ფეხბურთის_ჩემპიონატი_2026 (1).html](https://github.com/user-attachments/files/28341810/_._2026.1.html)
 <!DOCTYPE html>
 <html lang="ka">
 <head>
@@ -710,12 +710,12 @@
     <div class="date-header">18 ივნისი, 2026 &nbsp;—&nbsp; ხუთშაბათი<div class="date-badge">B ჯგუფი</div></div>
     <div class="match-row group-b">
       <span class="match-time blue">21:30</span>
-      <div class="match-vs"><span class="match-team">B1 Midnight Hummer</span><span class="vs-badge blue">VS</span><span class="match-team">B3 იმპულსი</span></div>
+      <div class="match-vs"><span class="match-team">B2 Black Stone</span><span class="vs-badge blue">VS</span><span class="match-team">B4 QSANI</span></div>
       <div class="match-meta"><span class="tag blue">B ჯგუფი</span><span class="tag">თბილისი</span></div>
     </div>
     <div class="match-row group-b">
       <span class="match-time blue">22:30</span>
-      <div class="match-vs"><span class="match-team">B2 Black Stone</span><span class="vs-badge blue">VS</span><span class="match-team">B4 QSANI</span></div>
+      <div class="match-vs"><span class="match-team">B1 Midnight Hummer</span><span class="vs-badge blue">VS</span><span class="match-team">B3 იმპულსი</span></div>
       <div class="match-meta"><span class="tag blue">B ჯგუფი</span><span class="tag">თბილისი</span></div>
     </div>
   </div>
@@ -778,15 +778,15 @@
 
   <div class="schedule-group">
     <div class="date-header">2 ივლისი, 2026 &nbsp;—&nbsp; ხუთშაბათი<div class="date-badge">A & B</div></div>
-    <div class="match-row">
-      <span class="match-time">21:30</span>
-      <div class="match-vs"><span class="match-team">A3 Phoenix</span><span class="vs-badge">VS</span><span class="match-team">A4 Blue Lock</span></div>
-      <div class="match-meta"><span class="tag orange">A ჯგუფი</span><span class="tag">თბილისი</span></div>
-    </div>
     <div class="match-row group-b">
-      <span class="match-time blue">22:30</span>
+      <span class="match-time blue">21:30</span>
       <div class="match-vs"><span class="match-team">B2 Black Stone</span><span class="vs-badge blue">VS</span><span class="match-team">B3 იმპულსი</span></div>
       <div class="match-meta"><span class="tag blue">B ჯგუფი</span><span class="tag">თბილისი</span></div>
+    </div>
+    <div class="match-row">
+      <span class="match-time">22:30</span>
+      <div class="match-vs"><span class="match-team">A3 Phoenix</span><span class="vs-badge">VS</span><span class="match-team">A4 Blue Lock</span></div>
+      <div class="match-meta"><span class="tag orange">A ჯგუფი</span><span class="tag">თბილისი</span></div>
     </div>
   </div>
 
@@ -906,63 +906,11 @@
     <!-- A GROUP HEADER -->
     <div style="background:var(--orange); color:white; font-weight:800; font-size:13px; padding:8px 16px; border-radius:8px; letter-spacing:1px;">⚽ ჯგუფი A — აღმოსავლეთი</div>
 
-    <!-- QSANI -->
-    <div class="player-card">
-      <div class="pc-header orange">
-        <span class="pc-team">QSANI</span>
-        <span class="pc-dept">საბითუმო ქსანი · თბილისი</span>
-      </div>
-      <div class="pc-body">
-        <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">დუდუ ჟონჟოლაძე</span></div>
-        <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">ზურაბი ჩაჩანიძე</span></div>
-        <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
-          <span class="pc-players">
-            <span class="player-pill">ილიკო გოგალაძე</span>
-            <span class="player-pill">საბა ტაგანაშვილი</span>
-            <span class="player-pill">ლაშა ბურდიაშვილი</span>
-          </span>
-        </div>
-        <div class="pc-row"><span class="pc-role sub">სათადარიგოები</span>
-          <span class="pc-players">
-            <span class="player-pill sub">ალექს საფაროვი</span>
-            <span class="player-pill sub">ლევანი ამბროსიშვილი</span>
-            <span class="player-pill sub">გოჩა თამაზაშვილი</span>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <!-- OFA -->
-    <div class="player-card">
-      <div class="pc-header orange">
-        <span class="pc-team">OFA</span>
-        <span class="pc-dept">ოფისი · თბილისი</span>
-      </div>
-      <div class="pc-body">
-        <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">გიორგი ხიზანიშვილი</span></div>
-        <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">ლაშა ნადირაძე</span></div>
-        <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
-          <span class="pc-players">
-            <span class="player-pill">მათე დიდია</span>
-            <span class="player-pill">გიორგი გაბროშვილი</span>
-            <span class="player-pill">გიორგი კიკნაძე</span>
-          </span>
-        </div>
-        <div class="pc-row"><span class="pc-role sub">სათადარიგოები</span>
-          <span class="pc-players">
-            <span class="player-pill sub">თენგო დევაძე</span>
-            <span class="player-pill sub">გიორგი ბურდული</span>
-            <span class="player-pill sub">პეტრე ჭიჭაღუა</span>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <!-- ონლაინი -->
+    <!-- ონლაინი (A1) -->
     <div class="player-card">
       <div class="pc-header orange">
         <span class="pc-team">ონლაინი</span>
-        <span class="pc-dept">საბითუმო · თბილისი</span>
+        <span class="pc-dept">საბითუმო ოფისი · თბილისი</span>
       </div>
       <div class="pc-body">
         <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">პავლე ჭიჭაღუა</span></div>
@@ -984,33 +932,7 @@
       </div>
     </div>
 
-    <!-- Blue Lock -->
-    <div class="player-card">
-      <div class="pc-header orange">
-        <span class="pc-team">Blue Lock</span>
-        <span class="pc-dept">ისთ ფოინთი · თბილისი</span>
-      </div>
-      <div class="pc-body">
-        <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">ნიკოლოზ მინდაძე</span></div>
-        <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">დაჩი დარბაიძე</span></div>
-        <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
-          <span class="pc-players">
-            <span class="player-pill">დემეტრე გრიგოლია</span>
-            <span class="player-pill">გიორგი გეთიაშვილი</span>
-            <span class="player-pill">გიორგი ჩიტუაშვილი</span>
-          </span>
-        </div>
-        <div class="pc-row"><span class="pc-role sub">სათადარიგოები</span>
-          <span class="pc-players">
-            <span class="player-pill sub">დავით ომიაძე</span>
-            <span class="player-pill sub">გიგი დავითაშვილი</span>
-            <span class="player-pill sub">ნიკოლოზი ირემაშვილი</span>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <!-- ბოლო სეზონი -->
+    <!-- ბოლო სეზონი (A2) -->
     <div class="player-card">
       <div class="pc-header orange">
         <span class="pc-team">ბოლო სეზონი</span>
@@ -1036,14 +958,118 @@
       </div>
     </div>
 
+    <!-- phoenix (A3) -->
+    <div class="player-card">
+      <div class="pc-header orange">
+        <span class="pc-team">phoenix</span>
+        <span class="pc-dept">1 ზუმერი · თბილისი</span>
+      </div>
+      <div class="pc-body">
+        <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">დავით მამესწარაშვილი</span></div>
+        <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">ლევანი ლაშხია</span></div>
+        <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
+          <span class="pc-players">
+            <span class="player-pill">გიორგი ხულორდავა</span>
+            <span class="player-pill">ნიკოლოზ პირმისაშვილი</span>
+            <span class="player-pill">გიორგი ირემაშვილი</span>
+          </span>
+        </div>
+        <div class="pc-row"><span class="pc-role sub">სათადარიგოები</span>
+          <span class="pc-players">
+            <span class="player-pill sub">გიორგი შეთეკაური</span>
+            <span class="player-pill sub">სანდრო ქარელი</span>
+            <span class="player-pill sub">ზურა სურმანიძე</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blue Lock (A4) -->
+    <div class="player-card">
+      <div class="pc-header orange">
+        <span class="pc-team">Blue Lock</span>
+        <span class="pc-dept">ისთ ფოინთი · თბილისი</span>
+      </div>
+      <div class="pc-body">
+        <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">ნიკოლოზ მინდაძე</span></div>
+        <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">დაჩი დარბაიძე</span></div>
+        <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
+          <span class="pc-players">
+            <span class="player-pill">დემეტრე გრიგოლია</span>
+            <span class="player-pill">გიორგი გეთიაშვილი</span>
+            <span class="player-pill">გიორგი ჩიტუაშვილი</span>
+          </span>
+        </div>
+        <div class="pc-row"><span class="pc-role sub">სათადარიგოები</span>
+          <span class="pc-players">
+            <span class="player-pill sub">დავით ომიაძე</span>
+            <span class="player-pill sub">გიგი დავითაშვილი</span>
+            <span class="player-pill sub">ნიკოლოზი ირემაშვილი</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- OFA (A5) -->
+    <div class="player-card">
+      <div class="pc-header orange">
+        <span class="pc-team">OFA</span>
+        <span class="pc-dept">ოფისი · თბილისი</span>
+      </div>
+      <div class="pc-body">
+        <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">გიორგი ხიზანიშვილი</span></div>
+        <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">ლაშა ნადირაძე</span></div>
+        <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
+          <span class="pc-players">
+            <span class="player-pill">მათე დიდია</span>
+            <span class="player-pill">გიორგი გაბროშვილი</span>
+            <span class="player-pill">გიორგი კიკნაძე</span>
+          </span>
+        </div>
+        <div class="pc-row"><span class="pc-role sub">სათადარიგოები</span>
+          <span class="pc-players">
+            <span class="player-pill sub">თენგო დევაძე</span>
+            <span class="player-pill sub">გიორგი ბურდული</span>
+            <span class="player-pill sub">პეტრე ჭიჭაღუა</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
     <!-- B GROUP HEADER -->
     <div style="background:var(--blue); color:white; font-weight:800; font-size:13px; padding:8px 16px; border-radius:8px; letter-spacing:1px; margin-top:8px;">⚽ ჯგუფი B — აღმოსავლეთი</div>
 
-    <!-- Black Stone -->
+    <!-- MIDNIGHT HAMMER (B1) -->
+    <div class="player-card">
+      <div class="pc-header blue">
+        <span class="pc-team">MIDNIGHT HAMMER</span>
+        <span class="pc-dept">სითი მოლი · თბილისი</span>
+      </div>
+      <div class="pc-body">
+        <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">ივიკო გეგელაშვილი</span></div>
+        <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">ლადო ბაბიაშვილი</span></div>
+        <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
+          <span class="pc-players">
+            <span class="player-pill">ომარი ომიაძე</span>
+            <span class="player-pill">გიგი კუჭავა</span>
+            <span class="player-pill">ალექსანდრე გორდეზიანი</span>
+            <span class="player-pill">ომიკო ვალიშვილი</span>
+          </span>
+        </div>
+        <div class="pc-row"><span class="pc-role sub">სათადარიგოები</span>
+          <span class="pc-players">
+            <span class="player-pill sub">ზურა ძნელაძე</span>
+            <span class="player-pill sub">დათა ჭანუყვაძე</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Black Stone (B2) -->
     <div class="player-card">
       <div class="pc-header blue">
         <span class="pc-team">Black Stone</span>
-        <span class="pc-dept">საბითუმო · თბილისი</span>
+        <span class="pc-dept">საბითუმო ოფისი · თბილისი</span>
       </div>
       <div class="pc-body">
         <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">მერაბი თაქთაქიშვილი</span></div>
@@ -1065,7 +1091,7 @@
       </div>
     </div>
 
-    <!-- იმპულსი -->
+    <!-- იმპულსი (B3) -->
     <div class="player-card">
       <div class="pc-header blue">
         <span class="pc-team">იმპულსი</span>
@@ -1091,53 +1117,27 @@
       </div>
     </div>
 
-    <!-- phoenix -->
+    <!-- QSANI (B4) -->
     <div class="player-card">
       <div class="pc-header blue">
-        <span class="pc-team">phoenix</span>
-        <span class="pc-dept">1 ზუმერი · თბილისი</span>
+        <span class="pc-team">QSANI</span>
+        <span class="pc-dept">საბითუმო ქსანი · თბილისი</span>
       </div>
       <div class="pc-body">
-        <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">დავით მამესწარაშვილი</span></div>
-        <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">ლევანი ლაშხია</span></div>
+        <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">დუდუ ჟონჟოლაძე</span></div>
+        <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">ზურაბი ჩაჩანიძე</span></div>
         <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
           <span class="pc-players">
-            <span class="player-pill">გიორგი ხულორდავა</span>
-            <span class="player-pill">ნიკოლოზ პირმისაშვილი</span>
-            <span class="player-pill">გიორგი ირემაშვილი</span>
+            <span class="player-pill">ილიკო გოგალაძე</span>
+            <span class="player-pill">საბა ტაგანაშვილი</span>
+            <span class="player-pill">ლაშა ბურდიაშვილი</span>
           </span>
         </div>
         <div class="pc-row"><span class="pc-role sub">სათადარიგოები</span>
           <span class="pc-players">
-            <span class="player-pill sub">გიორგი შეთეკაური</span>
-            <span class="player-pill sub">სანდრო ქარელი</span>
-            <span class="player-pill sub">ზურა სურმანიძე</span>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <!-- MIDNIGHT HAMMER -->
-    <div class="player-card">
-      <div class="pc-header blue">
-        <span class="pc-team">MIDNIGHT HAMMER</span>
-        <span class="pc-dept">სითი მოლი · თბილისი</span>
-      </div>
-      <div class="pc-body">
-        <div class="pc-row"><span class="pc-role cap">კაპ.</span><span class="pc-name">ივიკო გეგელაშვილი</span></div>
-        <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">ლადო ბაბიაშვილი</span></div>
-        <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
-          <span class="pc-players">
-            <span class="player-pill">ომარი ომიაძე</span>
-            <span class="player-pill">გიგი კუჭავა</span>
-            <span class="player-pill">ალექსანდრე გორდეზიანი</span>
-            <span class="player-pill">ომიკო ვალიშვილი</span>
-          </span>
-        </div>
-        <div class="pc-row"><span class="pc-role sub">სათადარიგოები</span>
-          <span class="pc-players">
-            <span class="player-pill sub">ზურა ძნელაძე</span>
-            <span class="player-pill sub">დათა ჭანუყვაძე</span>
+            <span class="player-pill sub">ალექს საფაროვი</span>
+            <span class="player-pill sub">ლევანი ამბროსიშვილი</span>
+            <span class="player-pill sub">გოჩა თამაზაშვილი</span>
           </span>
         </div>
       </div>
