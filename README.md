@@ -1133,7 +1133,7 @@
         <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">ზურაბი ჩაჩანიძე</span></div>
         <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
           <span class="pc-players">
-            <span class="player-pill">ილიკო გოგალაძე</span>
+            <span class="player-pill">ილიკო გოგოლაძე</span>
             <span class="player-pill">საბა ტაგანაშვილი</span>
             <span class="player-pill">ლაშა ბურდიაშვილი</span>
           </span>
