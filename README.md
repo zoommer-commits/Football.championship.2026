@@ -599,7 +599,7 @@
         </div>
         <div class="team-item">
           <div class="team-num">A2</div>
-          <div class="team-info"><div class="team-name-main">ბოლო სეზონი</div><div class="team-dept">ფილიალი • გლდანი</div></div>
+          <div class="team-info"><div class="team-name-main">ბოლო სეზონი</div><div class="team-dept">ფილიალი • გლდანი/ცენტრალი</div></div>
         </div>
         <div class="team-item">
           <div class="team-num">A3</div>
