@@ -598,8 +598,13 @@
           <div class="team-info"><div class="team-name-main">ონლაინი</div><div class="team-dept">ადმინისტრაცია • საბითუმო ოფისი</div></div>
         </div>
         <div class="team-item">
-          <div class="team-num">A2</div>
-<div class="team-info"><div class="team-name-main">ბოლო სეზონი</div><div class="team-dept">ფილიალი • გლდანი&#8288;/&#8288;ცენტრალი</div></div>
+          <div class="team-item">
+  <div class="team-num">A2</div>
+  <div class="team-info">
+    <div class="team-name-main">ბოლო სეზონი</div>
+    <div class="team-dept">ფილიალი • გლდანი&#8288;/&#8288;ცენტრალი</div>
+  </div>
+</div>
         </div>
         <div class="team-item">
           <div class="team-num">A3</div>
