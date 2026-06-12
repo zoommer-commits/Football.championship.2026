@@ -937,8 +937,8 @@
       </div>
     </div>
 
-    <!-- ბოლო სეზონი (A2) -->
-    <div class="player-card">
+      <!-- ბოლო სეზონი (A2) -->
+      <div class="player-card">
       <div class="pc-header orange">
         <span class="pc-team">ბოლო სეზონი</span>
         <span class="pc-dept">გლდანი · თბილისი</span>
