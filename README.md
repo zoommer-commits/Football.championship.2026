@@ -1,6 +1,3 @@
-# Football.championship.2026
-[ფეხბურთის_ჩემპიონატი_2026 (1).html](https://github.com/user-attachments/files/28341810/_._2026.1.html)
-<!DOCTYPE html>
 <html lang="ka">
 <head>
 <meta charset="UTF-8">
@@ -31,7 +28,6 @@
     overflow-x: hidden;
   }
 
-  /* HERO */
   .hero {
     background: var(--orange);
     background-image: radial-gradient(ellipse at top right, #FF9A3C 0%, #FF6B00 40%, #E05500 100%);
@@ -89,7 +85,7 @@
     -webkit-text-stroke: 1px rgba(0,0,0,0.15);
   }
   .hero-subtitle {
-    margin-top: 12px;
+    margin-top: 14px;
     font-size: 15px;
     font-weight: 600;
     color: rgba(255,255,255,0.9);
@@ -98,7 +94,6 @@
     display: inline-block;
     padding: 5px 18px;
     border-radius: 20px;
-    margin-top: 14px;
   }
   .hero-balls {
     position: absolute;
@@ -115,7 +110,6 @@
     user-select: none;
   }
 
-  /* NAV TABS */
   .tab-bar {
     background: var(--blue);
     display: flex;
@@ -147,7 +141,6 @@
     background: rgba(255,255,255,0.1);
   }
 
-  /* SECTIONS */
   .section { display: none; padding: 24px 16px 40px; max-width: 1000px; margin: 0 auto; }
   .section.active { display: block; }
 
@@ -163,7 +156,6 @@
     padding-left: 12px;
   }
 
-  /* GROUPS */
   .groups-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -228,7 +220,6 @@
   .team-name-main { font-size: 14px; font-weight: 700; color: var(--dark); }
   .team-dept { font-size: 11px; color: #888; margin-top: 2px; }
 
-  /* SCHEDULE */
   .schedule-group { margin-bottom: 28px; }
   .date-header {
     background: linear-gradient(135deg, var(--orange), var(--orange-dark));
@@ -313,7 +304,6 @@
   .tag.teal { background: #E0F7FA; color: #0891B2; }
   .tag.gold { background: #FFFBEB; color: #D97706; }
 
-  /* PLAYERS TABLE */
   .players-table-wrap { overflow-x: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
   table { width: 100%; border-collapse: collapse; background: white; font-size: 13px; }
   thead tr { background: var(--orange); color: white; }
@@ -354,7 +344,6 @@
     white-space: nowrap;
   }
 
-  /* KNOCKOUT */
   .knockout-bracket {
     background: white;
     border-radius: 16px;
@@ -435,7 +424,6 @@
     margin-top: 8px;
   }
 
-  /* STATS STRIP */
   .stats-strip {
     display: flex;
     gap: 12px;
@@ -461,7 +449,6 @@
   .stat-num.gold { color: #D97706; }
   .stat-label { font-size: 11px; color: #888; font-weight: 600; margin-top: 4px; }
 
-  /* FOOTER */
   footer {
     background: var(--orange);
     color: white;
@@ -473,7 +460,6 @@
   }
   footer span { opacity: 0.8; }
 
-  /* PLAYER CARDS */
   .player-card {
     background: white;
     border-radius: 14px;
@@ -568,10 +554,10 @@
 
 <!-- TABS -->
 <div class="tab-bar">
-  <button class="tab-btn active" onclick="showTab('groups')">🏆 ჯგუფები</button>
-  <button class="tab-btn" onclick="showTab('schedule')">📅 განრიგი</button>
-  <button class="tab-btn" onclick="showTab('knockout')">⚔️ პლეი-ოფი</button>
-  <button class="tab-btn" onclick="showTab('players')">👥 მოთამაშეები</button>
+  <button class="tab-btn active" onclick="showTab('groups', this)">🏆 ჯგუფები</button>
+  <button class="tab-btn" onclick="showTab('schedule', this)">📅 განრიგი</button>
+  <button class="tab-btn" onclick="showTab('knockout', this)">⚔️ პლეი-ოფი</button>
+  <button class="tab-btn" onclick="showTab('players', this)">👥 მოთამაშეები</button>
 </div>
 
 <!-- GROUPS TAB -->
@@ -595,27 +581,38 @@
       <div class="team-list">
         <div class="team-item">
           <div class="team-num">A1</div>
-          <div class="team-info"><div class="team-name-main">ონლაინი</div><div class="team-dept">ადმინისტრაცია • საბითუმო ოფისი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">ონლაინი</div>
+            <div class="team-dept">ადმინისტრაცია • საბითუმო ოფისი</div>
+          </div>
         </div>
         <div class="team-item">
-          <div class="team-item">
+          <div class="team-num">A2</div>
+          <div class="team-info">
+            <div class="team-name-main">ბოლო სეზონი</div>
+            <div class="team-dept">ფილიალი • გლდანი/ცენტრალი</div>
+          </div>
+        </div>
         <div class="team-item">
-  <div class="team-num">A1</div>
-  <div class="team-info">
-    <div class="team-name-main">ონლაინი</div>
-    <div class="team-dept">ადმინისტრაცია • საბითუმო ოფისი</div>
-  </div>
-</div>
           <div class="team-num">A3</div>
-          <div class="team-info"><div class="team-name-main">Phoenix</div><div class="team-dept">ფილიალი • 1 ზუმერი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">Phoenix</div>
+            <div class="team-dept">ფილიალი • 1 ზუმერი</div>
+          </div>
         </div>
         <div class="team-item">
           <div class="team-num">A4</div>
-          <div class="team-info"><div class="team-name-main">Blue Lock</div><div class="team-dept">ფილიალი • ისთ ფოინთი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">Blue Lock</div>
+            <div class="team-dept">ფილიალი • ისთ ფოინთი</div>
+          </div>
         </div>
         <div class="team-item">
           <div class="team-num">A5</div>
-          <div class="team-info"><div class="team-name-main">OFA</div><div class="team-dept">ადმინისტრაცია • ოფისი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">OFA</div>
+            <div class="team-dept">ადმინისტრაცია • ოფისი</div>
+          </div>
         </div>
       </div>
     </div>
@@ -629,19 +626,31 @@
       <div class="team-list">
         <div class="team-item">
           <div class="team-num blue">B1</div>
-          <div class="team-info"><div class="team-name-main">Midnight Hummer</div><div class="team-dept">ფილიალი • სითი მოლი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">Midnight Hummer</div>
+            <div class="team-dept">ფილიალი • სითი მოლი</div>
+          </div>
         </div>
         <div class="team-item">
           <div class="team-num blue">B2</div>
-          <div class="team-info"><div class="team-name-main">Black Stone</div><div class="team-dept">ადმინისტრაცია • საბითუმო ოფისი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">Black Stone</div>
+            <div class="team-dept">ადმინისტრაცია • საბითუმო ოფისი</div>
+          </div>
         </div>
         <div class="team-item">
           <div class="team-num blue">B3</div>
-          <div class="team-info"><div class="team-name-main">იმპულსი</div><div class="team-dept">ფილიალი • თბილისი მოლი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">იმპულსი</div>
+            <div class="team-dept">ფილიალი • თბილისი მოლი</div>
+          </div>
         </div>
         <div class="team-item">
           <div class="team-num blue">B4</div>
-          <div class="team-info"><div class="team-name-main">QSANI</div><div class="team-dept">ადმინისტრაცია • საბითუმო ქსანი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">QSANI</div>
+            <div class="team-dept">ადმინისტრაცია • საბითუმო ქსანი</div>
+          </div>
         </div>
       </div>
     </div>
@@ -655,19 +664,31 @@
       <div class="team-list">
         <div class="team-item">
           <div class="team-num teal">C1</div>
-          <div class="team-info"><div class="team-name-main">ზუმერელი BMW შნიკები</div><div class="team-dept">ფილიალი • ბათუმი გრანდ მოლი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">ზუმერელი BMW შნიკები</div>
+            <div class="team-dept">ფილიალი • ბათუმი გრანდ მოლი</div>
+          </div>
         </div>
         <div class="team-item">
           <div class="team-num teal">C2</div>
-          <div class="team-info"><div class="team-name-main">SHŌRI-DAN</div><div class="team-dept">ფილიალი • ბათუმი ჭავჭავაძე</div></div>
+          <div class="team-info">
+            <div class="team-name-main">SHŌRI-DAN</div>
+            <div class="team-dept">ფილიალი • ბათუმი ჭავჭავაძე</div>
+          </div>
         </div>
         <div class="team-item">
           <div class="team-num teal">C3</div>
-          <div class="team-info"><div class="team-name-main">FC 404 Team</div><div class="team-dept">ფილიალი • ზუგდიდი მოლი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">FC 404 Team</div>
+            <div class="team-dept">ფილიალი • ზუგდიდი მოლი</div>
+          </div>
         </div>
         <div class="team-item">
           <div class="team-num teal">C4</div>
-          <div class="team-info"><div class="team-name-main">ენერჯაიზერები "2032</div><div class="team-dept">ფილიალი • ქუთაისი</div></div>
+          <div class="team-info">
+            <div class="team-name-main">ენერჯაიზერები "2032</div>
+            <div class="team-dept">ფილიალი • ქუთაისი</div>
+          </div>
         </div>
       </div>
     </div>
@@ -679,7 +700,6 @@
 <div id="tab-schedule" class="section">
   <h2 class="section-title">📅 თამაშების განრიგი — 2026</h2>
 
-  <!-- A/B GROUP GAMES -->
   <div style="margin-bottom: 10px; font-size: 13px; font-weight: 700; color: var(--orange);">⚽ A და B ჯგუფი — თბილისი (Buckswood Stadium)</div>
 
   <div class="schedule-group">
@@ -767,7 +787,7 @@
   </div>
 
   <div class="schedule-group">
-    <div class="date-header">1 ივლისი, 2026 &nbsp;—&nbsp; ოთხშაბათი<div class="date-badge">A & B</div></div>
+    <div class="date-header">1 ივლისი, 2026 &nbsp;—&nbsp; ოთხშაბათი<div class="date-badge">A &amp; B</div></div>
     <div class="match-row">
       <span class="match-time">21:30</span>
       <div class="match-vs"><span class="match-team">A1 ონლაინი</span><span class="vs-badge">VS</span><span class="match-team">A2 ბოლო სეზონი</span></div>
@@ -781,7 +801,7 @@
   </div>
 
   <div class="schedule-group">
-    <div class="date-header">2 ივლისი, 2026 &nbsp;—&nbsp; ხუთშაბათი<div class="date-badge">A & B</div></div>
+    <div class="date-header">2 ივლისი, 2026 &nbsp;—&nbsp; ხუთშაბათი<div class="date-badge">A &amp; B</div></div>
     <div class="match-row group-b">
       <span class="match-time blue">21:30</span>
       <div class="match-vs"><span class="match-team">B2 Black Stone</span><span class="vs-badge blue">VS</span><span class="match-team">B3 იმპულსი</span></div>
@@ -794,7 +814,6 @@
     </div>
   </div>
 
-  <!-- C GROUP GAMES -->
   <div style="margin: 24px 0 10px; font-size: 13px; font-weight: 700; color: #0891B2;">⚽ C ჯგუფი — დასავლეთი</div>
 
   <div class="schedule-group">
@@ -856,7 +875,6 @@
       A და B ჯგუფის საუკეთესო გუნდები პირდაპირ ეჯახებიან C ჯგუფის გამარჯვებულს
     </div>
 
-    <!-- QUARTERFINALS -->
     <div style="font-size:12px; font-weight:800; text-align:center; color:#888; letter-spacing:2px; margin-bottom:10px;">── მეოთხედ ფინალი ──</div>
     <div class="bracket-row">
       <div class="bracket-match">
@@ -874,7 +892,6 @@
       </div>
     </div>
 
-    <!-- SEMIS -->
     <div style="font-size:12px; font-weight:800; text-align:center; color:#888; letter-spacing:2px; margin: 16px 0 10px;">── ნახევარ ფინალი ──</div>
     <div class="bracket-row">
       <div class="bracket-match" style="max-width:300px;">
@@ -885,7 +902,6 @@
       </div>
     </div>
 
-    <!-- FINAL -->
     <div style="font-size:12px; font-weight:800; text-align:center; color:#888; letter-spacing:2px; margin: 16px 0 10px;">── ფინალი ──</div>
     <div class="bracket-row">
       <div class="bracket-match" style="max-width:360px; border-color: #D97706;">
@@ -907,7 +923,6 @@
 
   <div style="display:flex; flex-direction:column; gap:16px;">
 
-    <!-- A GROUP HEADER -->
     <div style="background:var(--orange); color:white; font-weight:800; font-size:13px; padding:8px 16px; border-radius:8px; letter-spacing:1px;">⚽ ჯგუფი A — აღმოსავლეთი</div>
 
     <!-- ონლაინი (A1) -->
@@ -936,8 +951,8 @@
       </div>
     </div>
 
-      <!-- ბოლო სეზონი (A2) -->
-      <div class="player-card">
+    <!-- ბოლო სეზონი (A2) -->
+    <div class="player-card">
       <div class="pc-header orange">
         <span class="pc-team">ბოლო სეზონი</span>
         <span class="pc-dept">გლდანი · თბილისი</span>
@@ -962,10 +977,10 @@
       </div>
     </div>
 
-    <!-- phoenix (A3) -->
+    <!-- Phoenix (A3) -->
     <div class="player-card">
       <div class="pc-header orange">
-        <span class="pc-team">phoenix</span>
+        <span class="pc-team">Phoenix</span>
         <span class="pc-dept">1 ზუმერი · თბილისი</span>
       </div>
       <div class="pc-body">
@@ -1040,13 +1055,12 @@
       </div>
     </div>
 
-    <!-- B GROUP HEADER -->
     <div style="background:var(--blue); color:white; font-weight:800; font-size:13px; padding:8px 16px; border-radius:8px; letter-spacing:1px; margin-top:8px;">⚽ ჯგუფი B — აღმოსავლეთი</div>
 
-    <!-- MIDNIGHT HAMMER (B1) -->
+    <!-- Midnight Hummer (B1) -->
     <div class="player-card">
       <div class="pc-header blue">
-        <span class="pc-team">MIDNIGHT HAMMER</span>
+        <span class="pc-team">Midnight Hummer</span>
         <span class="pc-dept">სითი მოლი · თბილისი</span>
       </div>
       <div class="pc-body">
@@ -1147,10 +1161,9 @@
       </div>
     </div>
 
-    <!-- C GROUP HEADER -->
     <div style="background:#0891B2; color:white; font-weight:800; font-size:13px; padding:8px 16px; border-radius:8px; letter-spacing:1px; margin-top:8px;">⚽ ჯგუფი C — დასავლეთი</div>
 
-    <!-- ზუმერელი BMW შნიკები -->
+    <!-- ზუმერელი BMW შნიკები (C1) -->
     <div class="player-card">
       <div class="pc-header teal">
         <span class="pc-team">ზუმერელი BMW შნიკები</span>
@@ -1176,7 +1189,7 @@
       </div>
     </div>
 
-    <!-- SHŌRI-DAN -->
+    <!-- SHŌRI-DAN (C2) -->
     <div class="player-card">
       <div class="pc-header teal">
         <span class="pc-team">SHŌRI-DAN</span>
@@ -1202,7 +1215,7 @@
       </div>
     </div>
 
-    <!-- FC 404 Team -->
+    <!-- FC 404 Team (C3) -->
     <div class="player-card">
       <div class="pc-header teal">
         <span class="pc-team">FC 404 Team</span>
@@ -1226,7 +1239,7 @@
       </div>
     </div>
 
-    <!-- ენერჯაიზერები "2032 -->
+    <!-- ენერჯაიზერები "2032 (C4) -->
     <div class="player-card">
       <div class="pc-header teal">
         <span class="pc-team">ენერჯაიზერები "2032</span>
@@ -1260,11 +1273,11 @@
 </footer>
 
 <script>
-function showTab(tab) {
+function showTab(tab, btn) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('tab-' + tab).classList.add('active');
-  event.target.classList.add('active');
+  btn.classList.add('active');
 }
 </script>
 </body>
