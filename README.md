@@ -982,7 +982,7 @@
         <div class="pc-row"><span class="pc-role sub">სათადარიგოები</span>
           <span class="pc-players">
             <span class="player-pill sub">გიორგი შეთეკაური</span>
-            <span class="player-pill sub">სანდრო ქარელი</span>
+            <span class="player-pill sub">ბექა ბექაური</span>
             <span class="player-pill sub">ზურა სურმანიძე</span>
           </span>
         </div>
