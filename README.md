@@ -922,7 +922,7 @@
         <div class="pc-row"><span class="pc-role gk">მეკ.</span><span class="pc-name">ტატო მჭედლიშვილი</span></div>
         <div class="pc-row"><span class="pc-role pl">მოთამაშეები</span>
           <span class="pc-players">
-            <span class="player-pill">ზურაბ შამათავა</span>
+            <span class="player-pill">ნიკოლოზ ანთაძე</span>
             <span class="player-pill">ბექა აზარაშვილი</span>
             <span class="player-pill">საბა ნერგაძე</span>
           </span>
