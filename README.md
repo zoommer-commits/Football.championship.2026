@@ -600,9 +600,12 @@
         <div class="team-item">
           <div class="team-item">
         <div class="team-item">
-          <div class="team-num">A2</div>
-          <div class="team-info"><div class="team-name-main">ბოლო სეზონი</div><div class="team-dept">ფილიალი • გლდანი/ ცენტრალი</div></div>
-        </div>
+  <div class="team-num">A1</div>
+  <div class="team-info">
+    <div class="team-name-main">ონლაინი</div>
+    <div class="team-dept">ადმინისტრაცია • საბითუმო ოფისი</div>
+  </div>
+</div>
           <div class="team-num">A3</div>
           <div class="team-info"><div class="team-name-main">Phoenix</div><div class="team-dept">ფილიალი • 1 ზუმერი</div></div>
         </div>
